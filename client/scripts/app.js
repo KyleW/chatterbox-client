@@ -1,1 +1,3 @@
-// YOUR CODE HERE:
+_.each(messages, function(message){
+  $('container').append().html("<div></div>").text(message);
+})
